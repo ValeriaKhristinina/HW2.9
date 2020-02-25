@@ -56,15 +56,47 @@
 		E2F1BF692405C40C00DA1794 /* HW2.9 */ = {
 			isa = PBXGroup;
 			children = (
-				E2F1BF6A2405C40C00DA1794 /* AppDelegate.swift */,
-				E2F1BF6C2405C40C00DA1794 /* SceneDelegate.swift */,
-				E2F1BF6E2405C40C00DA1794 /* ViewController.swift */,
-				E2F1BF702405C40C00DA1794 /* Main.storyboard */,
+				E2F1BF812405C48700DA1794 /* Models */,
+				E2F1BF802405C45C00DA1794 /* View Controllers */,
+				E2F1BF7F2405C44D00DA1794 /* Storyboards */,
+				E2F1BF7E2405C43D00DA1794 /* Support */,
 				E2F1BF732405C41000DA1794 /* Assets.xcassets */,
-				E2F1BF752405C41000DA1794 /* LaunchScreen.storyboard */,
-				E2F1BF782405C41000DA1794 /* Info.plist */,
 			);
 			path = HW2.9;
+			sourceTree = "<group>";
+		};
+		E2F1BF7E2405C43D00DA1794 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E2F1BF6A2405C40C00DA1794 /* AppDelegate.swift */,
+				E2F1BF6C2405C40C00DA1794 /* SceneDelegate.swift */,
+				E2F1BF782405C41000DA1794 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E2F1BF7F2405C44D00DA1794 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E2F1BF702405C40C00DA1794 /* Main.storyboard */,
+				E2F1BF752405C41000DA1794 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E2F1BF802405C45C00DA1794 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F1BF6E2405C40C00DA1794 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E2F1BF812405C48700DA1794 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +318,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y63NW9CJ4L;
-				INFOPLIST_FILE = HW2.9/Info.plist;
+				INFOPLIST_FILE = HW2.9/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.vkhristinina.HW2-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +337,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y63NW9CJ4L;
-				INFOPLIST_FILE = HW2.9/Info.plist;
+				INFOPLIST_FILE = HW2.9/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.vkhristinina.HW2-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
