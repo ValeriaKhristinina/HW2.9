@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7831E8257F49CCF8B8BC8698 /* Pods_HW2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFB16BC595B292F5FD9D99 /* Pods_HW2_9.framework */; };
+		E25858C1240718BE00AE7DC7 /* AnimationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25858C0240718BE00AE7DC7 /* AnimationDataManager.swift */; };
 		E2F1BF6B2405C40C00DA1794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1BF6A2405C40C00DA1794 /* AppDelegate.swift */; };
 		E2F1BF6D2405C40C00DA1794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1BF6C2405C40C00DA1794 /* SceneDelegate.swift */; };
 		E2F1BF6F2405C40C00DA1794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1BF6E2405C40C00DA1794 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		7584E5EA3D96B07A40FB66F9 /* Pods-HW2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2.9.debug.xcconfig"; path = "Target Support Files/Pods-HW2.9/Pods-HW2.9.debug.xcconfig"; sourceTree = "<group>"; };
 		A3C3713C5FBAD24A0373A471 /* Pods-HW2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW2.9.release.xcconfig"; path = "Target Support Files/Pods-HW2.9/Pods-HW2.9.release.xcconfig"; sourceTree = "<group>"; };
+		E25858C0240718BE00AE7DC7 /* AnimationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDataManager.swift; sourceTree = "<group>"; };
 		E2F1BF672405C40C00DA1794 /* HW2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F1BF6A2405C40C00DA1794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F1BF6C2405C40C00DA1794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				7584E5EA3D96B07A40FB66F9 /* Pods-HW2.9.debug.xcconfig */,
 				A3C3713C5FBAD24A0373A471 /* Pods-HW2.9.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,7 +82,7 @@
 		E2F1BF692405C40C00DA1794 /* HW2.9 */ = {
 			isa = PBXGroup;
 			children = (
-				E2F1BF812405C48700DA1794 /* Models */,
+				E2F1BF812405C48700DA1794 /* DataManagers */,
 				E2F1BF802405C45C00DA1794 /* View Controllers */,
 				E2F1BF7F2405C44D00DA1794 /* Storyboards */,
 				E2F1BF7E2405C43D00DA1794 /* Support */,
@@ -117,11 +118,12 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		E2F1BF812405C48700DA1794 /* Models */ = {
+		E2F1BF812405C48700DA1794 /* DataManagers */ = {
 			isa = PBXGroup;
 			children = (
+				E25858C0240718BE00AE7DC7 /* AnimationDataManager.swift */,
 			);
-			path = Models;
+			path = DataManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +243,7 @@
 			files = (
 				E2F1BF6F2405C40C00DA1794 /* ViewController.swift in Sources */,
 				E2F1BF6B2405C40C00DA1794 /* AppDelegate.swift in Sources */,
+				E25858C1240718BE00AE7DC7 /* AnimationDataManager.swift in Sources */,
 				E2F1BF6D2405C40C00DA1794 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
